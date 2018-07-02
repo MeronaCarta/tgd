@@ -1,0 +1,467 @@
+//배경
+html, body {
+    height: auto !important;
+    background: url("ㅇㅇㅇㅇㅇㅇㅇㅇ"); /* radial-gradient(rgb(253, 168, 47) 40%, rgb(242, 217, 213) ); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+//트게더 좌측상단 부분'트게더' 부분 테그
+header .row>div:nth-child(1)>a {
+    display: block;
+    width: 166px;
+    height: 60px;
+    background: url(https://raw.githubusercontent.com/MeronaCarta/tgd/master/hong%201st.png) no-repeat
+    filter: drop-shadow(3px 3px 3px rgba(0,0,0,1));
+}
+
+// 전역 바디 및 html설정
+body,html {
+    height: auto!important
+}
+
+// 기존 트게더 이미지 가리는 설정  
+header .row>div:nth-child(1)>a img {
+    opacity: 0
+}
+
+// 헤더바 설정
+header #header-bar {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-right: 30px;
+    padding-left: 30px
+}
+
+// 헤더바 컬러 설정
+// 상위 텍스트 설정 상속
+header #header-bar #header-top-notice a,header #header-bar a.dropdown-toggle {
+    color: var(--text-color)
+}
+
+
+// 상단 트게더 검색부분 검색 버튼 설정  
+header #right-search-form>#right-search-btn {
+    color: #f26d4c;
+    background: transparent;
+    border: none;
+    font-size: 1.4em;
+}
+
+// 검색부분 입력 폼 설정
+header #right-search-form>input[type=text] {
+    position: relative;
+    border: 3px solid #f26d4c;
+    background: #fff;
+    font-size: 1.1em;
+    padding: 0.3em 0.5em;
+}
+
+// 상단 헤더바 설정
+header #header-bar>.row {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-top: 5px solid #f26d4c;
+    background: #ffe4dd;
+    border-bottom: 2px solid #f26d4c;
+    border-right: 2px solid #ebeae8;
+}
+
+//최근 등등 색
+header #header-bar a.dropdown-toggle {
+    display: inline-block;
+    color: #f26d4c;
+    text-decoration: none;
+    padding: 0.3em 0;
+}
+
+// 헤더바 광고부분 설정
+header #header-bar #header-top-notice strong.notice-badge {
+    background: #f26d4c;
+    padding: 4px 8px;
+    color: #fff;
+    font-weight: bold;
+}
+
+//라운딩
+#main #main-menu {
+    padding: 0;
+    border-radius: 6px;
+}
+
+// 트게더 전체 메뉴 부분 최상단 설정 부분
+#main .menu-wrapper>.header {
+    background: #f26d4c;
+    color: #fff;
+    padding: 0.45em 1.4em 0.45em 1em;
+    font-weight: bold;
+}
+
+// 트게더 메뉴부분 텍스트 색상값 설정
+#main .menu-wrapper>a {
+    display: block;
+    background: #fff;
+    padding: 0.3em 1.4em 0.3em 0.7em;
+    text-decoration: none;
+    color: #b16c00;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+// 트게더 메뉴부분 앞에 알파벳 부분 설정
+#main .menu-wrapper>a>em {
+    color: #f26d4c;
+    text-decoration: none;
+    font-style: normal;
+    width: 24px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+//게임란 색변
+#main .menu-wrapper>.game-wrapper>a.game {
+    padding: 0.3em 0.35em 0.3em 0.35em;
+    display: inline-block;
+    flex: 1;
+    font-size: 12px;
+    vertical-align: middle;
+    text-align: left;
+    background: #fff;
+    text-decoration: none;
+    color: #c26c52;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+
+
+
+
+
+
+
+
+//페이지 갯수 설정부분
+.pagination>li>a,.pagination>li>span {
+    color: var(--main-color)
+}
+//페이지 부분 마우스 오버시 설정 값
+.pagination>li>a:hover {
+    background-color: var(--light-pink);
+    color: #fff
+}
+
+// 페이지 넘버 활성, 포커싱, 오버 설정
+.pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color)
+}
+
+// 게시글 본문 부분 상단 제목 밑부분 설정 (시간 표시, 댓글 갯수, 좋아요, 조회수 표시 부분)
+#article-content-wrapper>.header {
+    border-top: 3px solid var(--main-color);
+    background: var(--light-yellow)
+}
+
+// 게시글 하단 부분 설정
+#article-content-wrapper>.footer {
+    border-bottom: 3px solid var(--main-color);
+    background: var(--light-yellow)
+}
+
+// 게시글 리스트 설정 
+#article-list {
+    margin: 0;
+    padding: 0 0 2em
+}
+
+// 게시글 리스트 좌측 끝 좋아요 개수 부분 테그 설정
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: var(--main-color);
+    color: #fff;
+    font-weight: 7;
+    padding: 1px 5px;
+    font-size: 11px;
+    border-radius: 100px
+}
+
+//게시글 리스트 카테고리 부분
+#article-list #article-list-category {
+    border-top: 3px solid var(--main-color);
+    background: var(--light-yellow)
+}
+
+// 게시글 리스트 카테고리 부분
+#article-list #article-list-category>a {
+    display: inline-block;
+    ` padding: 11px 16px;
+    background: var(--light-yellow);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700
+}
+
+
+// 게시글 내 덧글 부분 제복 설정
+#article-reply-area #reply-real-area .reply>.reply-header {
+    background: var(--light-yellow)
+}
+
+// 게시글 내 답글 부분 제목 테그
+#article-reply-area>.header h5 {
+    font-size: 14px;
+    color: var(--main-color);
+    font-weight: 700
+}
+
+// 게시판 제목 부분 
+#board-info {
+    border-top: 3px solid var(--main-color);
+    overflow: inherit;
+    padding: 5px 5px 0 8px;
+    margin: 0
+}
+
+// 트게더 (유보미) 부분 테그
+#board-info h1>a {
+    color: var(--text-color)
+}
+
+// 게시판 스트리머 아이콘 표시 부분
+#board-info #board-info-profile-img {
+    width: 3.5em;
+    height: auto;
+    border-radius: 5em;
+    border: 1px solid var(--main-color)
+}
+
+.pull-right {
+    float: left!important;
+}
+
+
+
+
+// 게시판 상주 인원 표시
+#board-info #viewers-area {
+    font-size: 14px;
+    color: rgb(242, 109, 76);
+    font-weight: normal;
+    vertical-align: middle;
+    line-height: 18px;
+    display: inline-block;
+    float: right;
+}
+#board-info #viewers-area #viewers:befor {
+    content: "초홍이 기다리는 ㅇㅇ";
+    cursor: text
+}
+#board-info #viewers-area #viewers:after {
+    content: "명";
+    cursor: text
+}
+
+// 게시판 상주 인원 표시 그림
+#board-info #viewers-area .fa-user:before {
+    color: rgba(10,59,84,0);
+    content: url(https://raw.githubusercontent.com/MeronaCarta/tgd/master/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C-1.png)
+}
+
+
+
+
+
+
+#article-list #article-list-category {
+    border-top: 2px solid #f26d4c;
+    background: #ffe4dd;
+    border-bottom: 2px solid #f26d4c;
+}
+
+#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
+    background: #ffe4dd;
+}
+
+#article-list #article-list-category>a {
+    display: inline-block;
+    padding: 11px 16px;
+    background: #ffe4dd;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+---------------------------------************----------------------------------
+
+#board-info {
+    width: 100%;
+    height: 88px;
+    overflow: hidden;
+    line-height: 1;
+    margin: 0 0 1em;
+    padding: 1em;
+    border-top: 3px solid #f25d3f;
+    border-bottom: 3px solid #F25D3F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------*-*-------------
+
+
+
+// 게시글 리스트 작성자, 게시판 리스트 게시글 제목 부분 설정  
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span,#article-list>.article-list-row>.item>.list-title>a,body {
+    color: var(--main-color)
+}
+
+// 인기글 버튼 설정
+#article-list #article-list-menu>.btn.best>.fa.fa-star:before,.btn-outline-success>i.fa.fa-thumbs-up:before,span.a-badge i.fa.fa-star:before {
+    content: "\f004"
+}
+
+//인기글 마크 회전
+.article-list-row i.fa.fa-star {
+    animation: rotation 2s infinite;
+}
+
+.article-list-row:nth-child(even) i.fa.fa-star {
+    animation-delay: 1s;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+//글쓰기 버튼 우측 마진
+#article-list #article-list-menu>.btn.write {
+    margin-right: 1em
+}
+
+
+// 글쓰기 버튼 색상 설정
+.btn-primary {
+    background: var(--main-color);
+    border-color: #fff
+}
+
+// 글쓰기 버튼 동작시 설정
+.btn-primary:active,.btn-primary:focus,.btn-primary:hover {
+    background-color: var(--main-color)!important;
+    border: none
+}
+
+// 메인 배경색
+html {
+    background: linear-gradient(to bottom,#ffedeb,#ffc5c3)
+}
+
+// 전체 설정
+body {
+    background: 0 0
+}
+
+.menu-wrapper div.spacer {
+    pointer-events: none
+}
+
+//게시글 공지부분 배경 색상
+#article-list>.article-list-row.notice {
+    background-color: var(--light-yellow)
+}
+
+// 게시글 리스트 마우스 오버시 색상 설정
+#article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
+    background-color: var(--light-green)
+}
+
+// 게시글 리스트 하단 보더 설정
+#article-list>.article-list-row>.item>.list-blocked,#article-list>.article-list-row>.item>.list-category,#article-list>.article-list-row>.item>.list-checkbox,#article-list>.article-list-row>.item>.list-header,#article-list>.article-list-row>.item>.list-time,#article-list>.article-list-row>.item>.list-title {
+    border-bottom: 0 solid #fff
+}
+
+// 게시글 리스트 공지부분 '공지'표시 폰트 색상 설정  
+#article-list>.article-list-row>.item>.list-header>strong {
+    color: var(--main-color)
+}
+
+// 상단 검색 입력부분 보더 설정
+header>#header-search-bar #header-search-input {
+    border: 2px solid #06c
+}
+
+// 상단 검색 버튼 색상 설정
+header>#header-search-bar #header-search-btn {
+    color: #09f
+}
+
+
+.fr-toolbar {
+    border-top: 5px solid var(--text-color)
+}
+
+#article-list #article-list-menu>.btn.best,.btn-outline-success {
+    border-color: var(--main-color);
+    color: var(--main-color)
+}
+
+.fr-popup .fr-command.fr-btn,.fr-toolbar .fr-command.fr-btn {
+    color: var(--text-color)
+}
+
+
+// 안건드려도 될듯..
+span.a-badge i.fa.fa-star {
+    color: var(--main-color);
+    vertical-align: -2px!important
+}
+
+// 인기글 버튼 좌측 마진
+#article-list #article-list-menu>.btn.best {
+    margin-left: 1em
+}
+
+
+//링크쪽 버튼색 수정
+#main .menu-wrapper>a>i.fa.fa-square {
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.1em;
+    color: #f26d4c;
+    vertical-align: 0.2em;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
