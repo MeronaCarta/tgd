@@ -1,0 +1,278 @@
+/* 기본하늘색 #00d0ff */
+/* 연하늘색 #93ebff */
+/* 연연하늘색 #c6f4ff */
+
+/* 기본회색 #c1c1c1 */
+/* 서브연회색 #eaeaea */
+
+
+
+/* 전체배경 */
+
+html {
+    background: linear-gradient(to bottom, #ffffff 0%, #f0fafd 50%, #caf1ff 60%, #c6f4ff 75%, #b7e9ff 90%, #93ebff 95%, 
+
+#93ebff 100%)
+    height: auto !important;
+}
+
+html, body {
+    background: none;
+}
+
+
+/* 트게더 로고 */
+
+img[src="/assets/images/logo_new.png"] {
+    content: url(https://github.com/MeronaCarta/tgd/blob/master/gyeon%20logo3.png?raw=true);
+    filter: drop-shadow(5px 5px 1px rgba(0,0,0,1));
+}
+
+
+/* 검색 */
+
+header #right-search-form>input[type=text] {
+    position: relative;
+    border: 3px solid #00d0ff;
+    background: #fff;
+    font-size: 1.1em;
+    padding: 0.3em 0.5em;
+}
+
+header #right-search-form>#right-search-btn {
+    color: #7ae7ff;
+    background: transparent;
+    border: none;
+    font-size: 1.4em;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,1));
+}
+
+/* 상단바 */
+header #header-bar>.row {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border: 5px solid #00d0ff;
+    background: #fff;
+    border-radius: 30px;
+}
+
+header #header-bar #header-top-notice {
+    padding: 0.6em 0;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+    background: #00d0ff;
+}
+
+.fa-star:before {
+    content: url(https://github.com/MeronaCarta/tgd/blob/master/v.png?raw=true);
+}
+
+
+
+
+
+
+/* 좌측메뉴 */
+
+#main .menu-wrapper {
+    border: 0px solid #ebeae8;
+}
+
+#main .menu-wrapper>.header {
+    background: #00d0ff;
+    color: #fff;
+    padding: 0.45em 1.4em 0.45em 1em;
+    font-weight: bold;
+    border-radius: 16px 16px 0px 0px;
+}
+
+#main .menu-wrapper>a {
+    display: block;
+    background: #fff;
+    padding: 0.3em 1.4em 0.3em 0.7em;
+    text-decoration: none;
+    color: #313131;
+    border-bottom: 1px solid #f1f1f1;
+    border-left: 1px solid #00d0ff;
+    border-right: 1px solid #00d0ff;
+}
+
+#main .menu-wrapper>a>em {
+    color: #00d0ff;
+}
+
+#main .menu-wrapper>.game-wrapper {
+    display: flex;
+    border-left: 1px solid #00d0ff;
+    border-right: 1px solid #00d0ff;
+}
+
+#main .menu-wrapper .spacer {
+    background: #c6f4ff;
+    display: block;
+    height: 0.35em;
+}
+
+a[href="/hgc"] {
+    border-radius: 4px 4px 20px 20px !important;
+    border-bottom: 1px solid #00d0ff !important;
+}
+
+#main .menu-wrapper>a>i.fa.fa-square {
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.1em;
+    color: #00d0ff;
+    vertical-align: 0.2em;
+}
+
+a.useful-links[href="https://goo.gl/forms/ALDa2tEqh31kYmCm1"] {
+    border-radius: 4px 4px 20px 20px !important;
+    border-bottom: 1px solid #00d0ff !important;
+}
+
+a.schedule-link.more[href="/schedule"] {
+    border-radius: 4px 4px 20px 20px !important;
+    border-bottom: 1px solid #00d0ff !important;
+}
+
+
+
+
+/* 프로필 */
+
+#board-info {
+    height: 77px;
+}
+
+#board-info #board-info-profile-img {
+    width: 4.5em;
+    height: auto;
+    border: 1px solid #00d0ff;
+    border-radius: 35px;
+    background: #FFF;
+    margin-right: 5px;
+}
+
+#board-info #viewers-area #viewers:before {
+    content: "주인님의 장미 ";
+    cursor: text;
+    font-weight: bold;
+    color: #ff9899;
+}
+
+#board-info #viewers-area {
+    color: #ff9899;
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "송이";
+    cursor: text;
+    font-weight: bold;
+    color: #ff9899;
+}
+
+.fa-user:before {
+    content: url(https://static-cdn.jtvnw.net/badges/v1/6efdea09-8d1b-41fa-aa38-5f4d0ff33c92/1);
+}
+
+#board-info #board-info-bottom a[href="/wkgml/profile"] {
+    display: none;
+}
+
+
+
+
+/* 메인 */
+
+#main #main-content>div.frame {
+    background: #fff;
+    border: 1px solid #000000;
+}
+
+#article-list #article-list-category {
+    border-top: 2px solid #00d0ff;
+    background: #93ebff;
+}
+
+#article-list #article-list-category>a {
+    background: #93ebff;
+}
+
+#article-list>.article-list-row.notice {
+    background: #c6f4ff;
+}
+
+#article-list>.article-list-row.notice>.item>.list-title>a:visited {
+    color: #000 !important;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+    color: #000000;
+    font-weight: bold;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+    color: #000000;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, 
+
+.pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #00d0ff;
+    border-color: #00d0ff;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: #00d0ff;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #00d0ff;
+}
+
+
+
+
+/* 무지개 */
+#article-list #article-list-category>a[href="/wkgml?category=1193183"] {
+    border-bottom: 3px solid #ff0000;
+}
+
+#article-list #article-list-category>a[href="/wkgml?category=1193189"] {
+    border-bottom: 3px solid #ff7700;
+}
+
+#article-list #article-list-category>a[href="/wkgml?category=1193187"] {
+    border-bottom: 3px solid #f9ce01;
+}
+
+#article-list #article-list-category>a[href="/wkgml?category=1193185"] {
+    border-bottom: 3px solid #0db408;
+}
+
+#article-list #article-list-category>a[href="/wkgml?category=5704321"] {
+    border-bottom: 3px solid #f976d2;
+}
+
+#article-list #article-list-category>a[href="/wkgml?category=1193191"] {
+    border-bottom: 3px solid #01a7ff;
+}
+
+#article-list #article-list-category>a[href="/wkgml?category=1193197"] {
+    border-bottom: 3px solid #000eff;
+}
+
+#article-list #article-list-category>a[href="/wkgml?category=1193207"] {
+    border-bottom: 3px solid #9900d3;
+}
+
+#article-list #article-list-category>a[href="/wkgml?category=1209631"] {
+    border-bottom: 3px solid #000000;
+}
+
+#article-list #article-list-category>a[href="/wkgml?category=1235294"] {
+    border-bottom: 3px solid #a3a3a3;
+}
