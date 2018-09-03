@@ -1,0 +1,19 @@
+/* 전체배경 */
+
+html {
+    background: linear-gradient(to bottom, #ffffff 0%, #f0fafd 50%, #caf1ff 60%, #c6f4ff 75%, #b7e9ff 90%, #93ebff 95%, #93ebff 100%)
+    height: auto !important;
+}
+
+html, body {
+    background: none;
+}
+
+
+/* 트게더 로고 */
+
+img[src="/assets/images/logo_new.png"] {
+    content: url(https://github.com/MeronaCarta/tgd/blob/master/gyeon%20logo3.png?raw=true);
+    filter: drop-shadow(5px 5px 1px rgba(0,0,0,1));
+}
+
